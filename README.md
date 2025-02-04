@@ -6,9 +6,9 @@
 //
 
 ### Summary: Include screen shots or a video of your app highlighting its features
+![image info](./FetchTakeHomeProject/Assets.xcassets/ListView.png)
 ![image info](./FetchTakeHomeProject/Assets.xcassets/DetailView.png)
-
-I've provided some images in the Assets folder. Even though the project description said the app should be one screen, I thought I could make the UI/UX better by having a second screen to display the bigger image and the links. From the images, you can see the recipes are listed and a search bar allows the user to refine the results by name or cuisine. Each recipe has a navigation link to a detail view, where the links are provided and an option to share is available. The main view is refreshable via pulldown with the .refreshable{} modifier.
+Even though the project description said the app should be one screen, I thought I could make the UI/UX better by having a second screen to display the bigger image and the links. From the images, you can see the recipes are listed and a search bar allows the user to refine the results by name or cuisine. Each recipe has a navigation link to a detail view, where the links are provided and an option to share is available. The main view is refreshable via pulldown with the .refreshable{} modifier.
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 
