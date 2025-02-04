@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  FetchTakeHomeProject
+//  fetchtakehome
 //
 //  Created by Tyson Lefever on 2/4/25.
 //
@@ -32,7 +32,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "FetchTakeHomeProject")
+        container = NSPersistentContainer(name: "fetchtakehome")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
